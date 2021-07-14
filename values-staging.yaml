@@ -1,0 +1,12 @@
+namespace:
+  name: staging
+
+deployment:
+  replicas: 1
+  image_repo: nginx
+  image_tag: 1.18.0
+  request_memory: "128Mi"
+  request_cpu: "50m"
+
+configmap:
+  version: 1.18.0

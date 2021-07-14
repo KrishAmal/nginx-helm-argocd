@@ -1,0 +1,15 @@
+namespace:
+  name: prod
+
+deployment:
+  replicas: 2
+  image_repo: nginx
+  image_tag: 1.17.0
+  request_memory: "256Mi"
+  request_cpu: "70m"
+
+service:
+  port: 80
+
+configmap:
+  version: 1.17.0

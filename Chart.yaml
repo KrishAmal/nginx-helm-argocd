@@ -1,0 +1,9 @@
+apiVersion: v1
+name: nginx-deployment
+description: Install Nginx Across Multiple Env
+keywords:
+- nginx
+version: 1.0.0
+maintainers:
+- name: Amal 
+  email: amal@xyz.com
